@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'index', #Main (and possibly the only) app, handling video input
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
