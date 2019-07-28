@@ -5,5 +5,7 @@ SmPark - Dashboard
 {% endblock %}
 
 {% block content %}
-<p>test</p>
+{% for line in RES %}
+	<p>{{line}}</p>
+{% endfor %}
 {% endblock %}

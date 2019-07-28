@@ -1,0 +1,17 @@
+{
+"parkingLots": [
+{% for pLot in ParkingLots %}
+{
+"index":"{{pLot.addr}}",
+"info":"{{pLot.info}}",
+"state":"{{pLot.state}}",
+"price":{{pLot.price}},
+"location":"{{pLot.location}}",
+"carId": "{{pLot.carId}}",
+"hrs": {{pLot.hrs}}
+}
+{% endfor %}
+]
+}
+		
+

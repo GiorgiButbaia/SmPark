@@ -1,0 +1,7 @@
+node-*/*
+
+*.jpg
+
+*.sqlite3
+
+SmPark/index/migrations/*
